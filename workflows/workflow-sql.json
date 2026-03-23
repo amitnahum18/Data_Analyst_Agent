@@ -1,0 +1,1 @@
+{"name":"SQL Workflow","on":{"push":{"branches":["main"]}},"jobs":{"sqlJob":{"runs-on":"ubuntu-latest","steps":[{"name":"Checkout Code","uses":"actions/checkout@v2"},{"name":"Run SQL Scripts","run":"sqlcmd -S <server> -d <database> -U <username> -P <password> -i <inputFile.sql>"}]}}}
