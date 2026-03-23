@@ -1,0 +1,1 @@
+{"name": "RAFI Agent LLM Workflow", "description": "This is a configuration for the RAFI Agent LLM workflow", "version": "1.0", "steps": [{"name": "Step 1", "action": "initiate", "parameters": {}}]}
